@@ -10,8 +10,8 @@ FetchContent_Declare(
 )
 
 project(result)
-set(CMAKE_CXX_STANDARD 20)
 set(TARGET_NAME ${PROJECT_NAME})
+set(CMAKE_CXX_STANDARD 20)
 
 add_library(${TARGET_NAME} INTERFACE)
 set_target_properties(${TARGET_NAME} PROPERTIES LINKER_LANGUAGE CXX)
